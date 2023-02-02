@@ -7,7 +7,7 @@
 
 System.Console.WriteLine("Введите трехзначное число:");
 int number = Convert.ToInt32(Console.ReadLine());
-if ((number <= 99 || number > 999)&&(number >= -99 || number < -999))
+if ((number <= 99 || number > 999) && (number >= -99 || number < -999))
 {
     System.Console.WriteLine("Вы ввели не трехзначное число");
 }
