@@ -9,7 +9,7 @@ System.Console.WriteLine("Введите цифру соответствующу
 start:
 int numb = Convert.ToInt32(Console.ReadLine());
 
-if (numb == 0 || numb > 7)
+if (numb <= 0 || numb > 7)
 {
     System.Console.WriteLine("Введите число от 1 до 7");
     goto start;

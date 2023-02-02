@@ -17,11 +17,11 @@ if (num < 100)
     goto start;
 }
 else if (num >= 100)
+{
+    while (num > 999)
     {
-        while (num > 999)
-        {
-            num = num / 10;
-        }
-        result = num % 10;
+        num = num / 10;
     }
-    System.Console.WriteLine(result); 
+    result = num % 10;
+}
+System.Console.WriteLine(result);
